@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC80ED11CA2656A00C69FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC80ED01CA2656A00C69FBC /* main.m */; };
+		CAC80ED41CA2656A00C69FBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC80ED31CA2656A00C69FBC /* AppDelegate.m */; };
+		CAC80ED71CA2656A00C69FBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC80ED61CA2656A00C69FBC /* ViewController.m */; };
+		CAC80EDA1CA2656A00C69FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC80ED81CA2656A00C69FBC /* Main.storyboard */; };
+		CAC80EDC1CA2656A00C69FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC80EDB1CA2656A00C69FBC /* Assets.xcassets */; };
+		CAC80EDF1CA2656A00C69FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC80EDD1CA2656A00C69FBC /* LaunchScreen.storyboard */; };
+		CAC80EE81CA265A800C69FBC /* DOPDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC80EE71CA265A800C69FBC /* DOPDropDownMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAC80ECC1CA2656A00C69FBC /* 下拉式菜单的制作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "下拉式菜单的制作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC80ED01CA2656A00C69FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAC80ED21CA2656A00C69FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAC80ED31CA2656A00C69FBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAC80ED51CA2656A00C69FBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAC80ED61CA2656A00C69FBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAC80ED91CA2656A00C69FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAC80EDB1CA2656A00C69FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC80EDE1CA2656A00C69FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAC80EE01CA2656A00C69FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC80EE61CA265A800C69FBC /* DOPDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOPDropDownMenu.h; sourceTree = "<group>"; };
+		CAC80EE71CA265A800C69FBC /* DOPDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOPDropDownMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC80EC91CA2656A00C69FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC80EC31CA2656A00C69FBC = {
+			isa = PBXGroup;
+			children = (
+				CAC80ECE1CA2656A00C69FBC /* 下拉式菜单的制作 */,
+				CAC80ECD1CA2656A00C69FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC80ECD1CA2656A00C69FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC80ECC1CA2656A00C69FBC /* 下拉式菜单的制作.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC80ECE1CA2656A00C69FBC /* 下拉式菜单的制作 */ = {
+			isa = PBXGroup;
+			children = (
+				CAC80EE61CA265A800C69FBC /* DOPDropDownMenu.h */,
+				CAC80EE71CA265A800C69FBC /* DOPDropDownMenu.m */,
+				CAC80ED21CA2656A00C69FBC /* AppDelegate.h */,
+				CAC80ED31CA2656A00C69FBC /* AppDelegate.m */,
+				CAC80ED51CA2656A00C69FBC /* ViewController.h */,
+				CAC80ED61CA2656A00C69FBC /* ViewController.m */,
+				CAC80ED81CA2656A00C69FBC /* Main.storyboard */,
+				CAC80EDB1CA2656A00C69FBC /* Assets.xcassets */,
+				CAC80EDD1CA2656A00C69FBC /* LaunchScreen.storyboard */,
+				CAC80EE01CA2656A00C69FBC /* Info.plist */,
+				CAC80ECF1CA2656A00C69FBC /* Supporting Files */,
+			);
+			path = "下拉式菜单的制作";
+			sourceTree = "<group>";
+		};
+		CAC80ECF1CA2656A00C69FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC80ED01CA2656A00C69FBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC80ECB1CA2656A00C69FBC /* 下拉式菜单的制作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC80EE31CA2656A00C69FBC /* Build configuration list for PBXNativeTarget "下拉式菜单的制作" */;
+			buildPhases = (
+				CAC80EC81CA2656A00C69FBC /* Sources */,
+				CAC80EC91CA2656A00C69FBC /* Frameworks */,
+				CAC80ECA1CA2656A00C69FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "下拉式菜单的制作";
+			productName = "下拉式菜单的制作";
+			productReference = CAC80ECC1CA2656A00C69FBC /* 下拉式菜单的制作.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC80EC41CA2656A00C69FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DDYS;
+				TargetAttributes = {
+					CAC80ECB1CA2656A00C69FBC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = W6R525XMJJ;
+					};
+				};
+			};
+			buildConfigurationList = CAC80EC71CA2656A00C69FBC /* Build configuration list for PBXProject "下拉式菜单的制作" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAC80EC31CA2656A00C69FBC;
+			productRefGroup = CAC80ECD1CA2656A00C69FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC80ECB1CA2656A00C69FBC /* 下拉式菜单的制作 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC80ECA1CA2656A00C69FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC80EDF1CA2656A00C69FBC /* LaunchScreen.storyboard in Resources */,
+				CAC80EDC1CA2656A00C69FBC /* Assets.xcassets in Resources */,
+				CAC80EDA1CA2656A00C69FBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC80EC81CA2656A00C69FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC80ED71CA2656A00C69FBC /* ViewController.m in Sources */,
+				CAC80EE81CA265A800C69FBC /* DOPDropDownMenu.m in Sources */,
+				CAC80ED41CA2656A00C69FBC /* AppDelegate.m in Sources */,
+				CAC80ED11CA2656A00C69FBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAC80ED81CA2656A00C69FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC80ED91CA2656A00C69FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAC80EDD1CA2656A00C69FBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC80EDE1CA2656A00C69FBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAC80EE11CA2656A00C69FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAC80EE21CA2656A00C69FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC80EE41CA2656A00C69FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "下拉式菜单的制作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ddys168.www.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAC80EE51CA2656A00C69FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "下拉式菜单的制作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ddys168.www.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC80EC71CA2656A00C69FBC /* Build configuration list for PBXProject "下拉式菜单的制作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC80EE11CA2656A00C69FBC /* Debug */,
+				CAC80EE21CA2656A00C69FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC80EE31CA2656A00C69FBC /* Build configuration list for PBXNativeTarget "下拉式菜单的制作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC80EE41CA2656A00C69FBC /* Debug */,
+				CAC80EE51CA2656A00C69FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC80EC41CA2656A00C69FBC /* Project object */;
+}
